@@ -1,11 +1,11 @@
 # jmeter_practise
 This project is responsible for testing for https://petstore.swagger.io/ endpoints.
 
-To build env and  start performance tests run the command: 
+To build env and  start performance tests once  run the command: 
 
 sh start_script.sh
 
-
+ to execute extra tests -  import jmeter config file jmeter-test-plan/jmeter_configs.jmx to jmeter and run it again 
 
 ### Homework: 
 
@@ -24,7 +24,7 @@ sh start_script.sh
 jmeter-practise/
 ├── docker-compose.yml
 └── test-plan/
-    ├── jmeter_configs.jmx         # Save the attached XML file as this (rename from .csv if needed)
-    ├── jmeter_users_create.csv    # Your CSV input for create user (provide sample data)
-    ├── jmeter_users_update.csv    # Your CSV input for update user (provide sample data)
-    └── jmeter_users_delete.csv    # Your CSV input for delete user (provide sample data)
+    ├── jmeter_configs.jmx         
+    ├── jmeter_users_create.csv    
+    ├── jmeter_users_update.csv    
+    └── jmeter_users_delete.csv    
